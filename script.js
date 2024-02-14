@@ -1,5 +1,5 @@
-const phrases1 = ['Моя кохана,', 'Зайка,', 'Моє сердечко,'];
-const phrases2 = ['ти змушуеш мене посміхатися', 'твої очі сяють', 'моя зірочка'];
+const phrases1 = ['Моя кохана,', 'Зайка,', 'Моя кіся,'];
+const phrases2 = ['ти змушуеш мене посміхатися', 'твої очі сяють', 'ти сама найкраща', 'ти моє кохання', 'I love you'];
 const phrases3 = ['день за днем.', 'у моєму серці.', 'у моїх мріях.'];
 
 const hearts = ['&#10084;', '&#x1F497;', '&#x1F496;', '&#x1F493;']; // Different heart emojis
@@ -13,7 +13,6 @@ function getRandomElement(array) {
 function generatePoem() {
     const line1 = getRandomElement(phrases1);
     const line2 = getRandomElement(phrases2);
-    const line3 = getRandomElement(phrases3);
 
     const poem = `${line1} ${line2},\n${line3}`;
 
